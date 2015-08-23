@@ -30,19 +30,19 @@
   </entry>
   
   <entry>
-    <title><![CDATA[Macでリモートサーバから更新したHTMLの差分ファイルをダウンロードする方法]]></title>
+    <title><![CDATA[リモートサーバから更新したHTMLの差分ファイルをダウンロードする方法（Mac、FTP接続）]]></title>
     <link href="http://yoursite.com/2015/05/10/diffDL/"/>
     <id>http://yoursite.com/2015/05/10/diffDL/</id>
     <published>2015-05-10T07:58:54.000Z</published>
-    <updated>2015-08-23T11:00:16.000Z</updated>
-    <content type="html"><![CDATA[<h3 id="実現したいこと">実現したいこと</h3><p>Macでリモートサーバから階層構造を保ったまま自動的に差分ファイルを抽出する。<br>web制作業務で、テストサーバ上のHTMLファイルを、納品用に差分ファイルだけ階層構造を保ったまま抽出する作業を自動化したい。</p>
-<p>Gitを使えばできる<br><a href="https://www.eyemovic.com/blog_it/4747.php" target="_blank" rel="external">Git初心者でも差分ファイルを一瞬で取り出すMac用SourceTreeスクリプト</a><br>が、現状は導入していないので、Gitなしで実現したい。</p>
-<h3 id="方法">方法</h3><p><em>MacのFinderから「サーバへ接続」し、フリーソフト「Cowsee」で差分ファイルを抽出</em></p>
+    <updated>2015-08-23T14:47:28.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="実現すること">実現すること</h3><p>MacでFTP接続したリモートサーバから階層構造を保ったまま差分ファイルを抽出する。<br>テストサーバ上の更新したHTMLファイルのうち、差分ファイルだけ階層構造を保ったまま抽出する作業を自動化したい。</p>
+<p>Gitを使えばできるが、現状は導入していないので、Gitなしで実現したい。<br><a href="https://www.eyemovic.com/blog_it/4747.php" target="_blank" rel="external">Git初心者でも差分ファイルを一瞬で取り出すMac用SourceTreeスクリプト</a></p>
+<h3 id="方法">方法</h3><p>MacのFinderから「サーバへ接続」し、フリーソフト「Cowsee」で差分ファイルを抽出</p>
 <h4 id="MacのFinderからリモートサーバへ接続">MacのFinderからリモートサーバへ接続</h4><ul>
 <li>Macのデスクトップ、Finderへ移動</li>
 <li>ショートカット「⌘＋K」で「サーバへ接続」ウインドウを開く（またはFinderのファイルメニュー「移」&gt;「サーバへ接続」を選択）<br><img src="/2015/05/10/diffDL/connect.jpg" alt="「サーバへ接続」のウインドウ"></li>
 <li>サーバアドレスに「ftp://IPアドレス（またはドメイン）」、または「ftps://IPアドレス（またはドメ&gt;イン）」（セキュア）を入力</li>
-<li>表示された画面で、サーバ用の名前とパスワードを入力<br><img src="2015/05/10/diffDL/server_namepw.jpg" alt="サーバ接続用の名前とパスワードを入力"></li>
+<li>表示された画面で、サーバ用の名前とパスワードを入力<br><img src="/2015/05/10/diffDL/server_namepw.jpg" alt="サーバ接続用の名前とパスワードを入力"></li>
 <li>FTP接続が成功すると、Finderのサイドバー「共有」にサーバ名が表示される</li>
 </ul>
 <h4 id="Cowseeでリモートサーバから差分ファイルを抽出してダウンロード"><a href="http://utweb.jp/air/cowsee/" target="_blank" rel="external">Cowsee</a>でリモートサーバから差分ファイルを抽出してダウンロード</h4><ul>
@@ -58,7 +58,8 @@
 <p>参考：<br>FTP from Mac OS X: <a href="http://osxdaily.com/2011/02/07/ftp-from-mac/" target="_blank" rel="external">http://osxdaily.com/2011/02/07/ftp-from-mac/</a><br>サーバーへ接続: <a href="http://hamachan.info/mac/kyouyu/saba.html" target="_blank" rel="external">http://hamachan.info/mac/kyouyu/saba.html</a><br>Cowsee: <a href="http://utweb.jp/air/cowsee/" target="_blank" rel="external">http://utweb.jp/air/cowsee/</a></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h3 id="実現したいこと">実現したいこと</h3><p>Macでリモートサーバから階層構造を保ったまま自動的に差分ファイルを抽出する。<br>web制作業務で、テストサーバ上のHTMLファイルを、納品用に差分ファイルだけ階層構造を保ったまま抽出する作業を自動化したい。</]]>
+    <![CDATA[<h3 id="実現すること">実現すること</h3><p>MacでFTP接続したリモートサーバから階層構造を保ったまま差分ファイルを抽出する。<br>テストサーバ上の更新したHTMLファイルのうち、差分ファイルだけ階層構造を保ったまま抽出する作業を自動化したい。</p>
+<p>]]>
     </summary>
     
   </entry>
