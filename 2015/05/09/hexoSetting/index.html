@@ -5,31 +5,28 @@
   
   <title>hexoセットアップ時のメモ | web design and cording</title>
   <meta name="viewport" content="width=device-width">
-  <meta name="description" content="###GitHubPageへデプロイ時にエラー発生
-GitHubPageにデプロイするとエラーが表示され3分で設定できなかったので解決方法をメモ
-1$ hexo deploy -g
-デプロイするとDeployerが見つからないというエラー1ERROR Deployer not found github
-####解決方法_config.yml（hexoの設定ファイル）の記述をvimで開いて修正
-1$">
+  <meta name="description" content="GitHubPageへのデプロイ時のエラー解決方法メモ1$ hexo deploy -g
+GitHubPageへデプロイするとDeployerが見つからないというエラーが発生1ERROR Deployer not found github
+解決方法_config.yml（hexoの設定ファイル）の記述をvimで開いて修正
+1$ vi _config.yml
+deploy:のtype:に設定している">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexoセットアップ時のメモ">
 <meta property="og:url" content="http://yoursite.com/2015/05/09/hexoSetting/index.html">
 <meta property="og:site_name" content="web design and cording">
-<meta property="og:description" content="###GitHubPageへデプロイ時にエラー発生
-GitHubPageにデプロイするとエラーが表示され3分で設定できなかったので解決方法をメモ
-1$ hexo deploy -g
-デプロイするとDeployerが見つからないというエラー1ERROR Deployer not found github
-####解決方法_config.yml（hexoの設定ファイル）の記述をvimで開いて修正
-1$">
-<meta property="og:updated_time" content="2015-05-09T13:41:06.000Z">
+<meta property="og:description" content="GitHubPageへのデプロイ時のエラー解決方法メモ1$ hexo deploy -g
+GitHubPageへデプロイするとDeployerが見つからないというエラーが発生1ERROR Deployer not found github
+解決方法_config.yml（hexoの設定ファイル）の記述をvimで開いて修正
+1$ vi _config.yml
+deploy:のtype:に設定している">
+<meta property="og:updated_time" content="2015-08-23T10:36:06.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexoセットアップ時のメモ">
-<meta name="twitter:description" content="###GitHubPageへデプロイ時にエラー発生
-GitHubPageにデプロイするとエラーが表示され3分で設定できなかったので解決方法をメモ
-1$ hexo deploy -g
-デプロイするとDeployerが見つからないというエラー1ERROR Deployer not found github
-####解決方法_config.yml（hexoの設定ファイル）の記述をvimで開いて修正
-1$">
+<meta name="twitter:description" content="GitHubPageへのデプロイ時のエラー解決方法メモ1$ hexo deploy -g
+GitHubPageへデプロイするとDeployerが見つからないというエラーが発生1ERROR Deployer not found github
+解決方法_config.yml（hexoの設定ファイル）の記述をvimで開いて修正
+1$ vi _config.yml
+deploy:のtype:に設定している">
   
     <link rel="alternative" href="/atom.xml" title="web design and cording" type="application/atom+xml">
   
@@ -85,18 +82,16 @@ GitHubPageにデプロイするとエラーが表示され3分で設定できな
 	</header>
 	<div class="entry-content">
 		
-    	<p>###GitHubPageへデプロイ時にエラー発生</p>
-<p>GitHubPageにデプロイするとエラーが表示され3分で設定できなかったので解決方法をメモ</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy -g</span><br></pre></td></tr></table></figure>
-<p>デプロイするとDeployerが見つからないというエラー<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ERROR Deployer not found github</span><br></pre></td></tr></table></figure></p>
-<p>####解決方法<br>_config.yml（hexoの設定ファイル）の記述をvimで開いて修正</p>
+    	<h3 id="GitHubPageへのデプロイ時のエラー解決方法メモ">GitHubPageへのデプロイ時のエラー解決方法メモ</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy -g</span><br></pre></td></tr></table></figure>
+<p>GitHubPageへデプロイするとDeployerが見つからないというエラーが発生<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ERROR Deployer not found github</span><br></pre></td></tr></table></figure></p>
+<h4 id="解決方法">解決方法</h4><p>_config.yml（hexoの設定ファイル）の記述をvimで開いて修正</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vi _config.yml</span><br></pre></td></tr></table></figure>
 <p>deploy:のtype:に設定している’github’を’git’に変更</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: git@github.com:&lt;username&gt;/&lt;username&gt;.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
 <p>再度デプロイ</p>
 <hr>
-<p>####エラー解決の参考<br><a href="https://github.com/hexojs/hexo/issues/1040" target="_blank" rel="external">https://github.com/hexojs/hexo/issues/1040</a></p>
-<p>####hexo、GitHubPage設定の参考<br><a href="http://liginc.co.jp/web/programming/server/104594" target="_blank" rel="external">http://liginc.co.jp/web/programming/server/104594</a></p>
+<h4 id="エラー解決の参考">エラー解決の参考</h4><p><a href="https://github.com/hexojs/hexo/issues/1040" target="_blank" rel="external">https://github.com/hexojs/hexo/issues/1040</a></p>
+<h4 id="hexo、GitHubPage設定の参考">hexo、GitHubPage設定の参考</h4><p><a href="http://liginc.co.jp/web/programming/server/104594" target="_blank" rel="external">http://liginc.co.jp/web/programming/server/104594</a></p>
 
     
 	</div>
@@ -118,7 +113,7 @@ GitHubPageにデプロイするとエラーが表示され3分で設定できな
       <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
-          Macでリモートサーバから更新後の差分ファイルをダウンロードする方法
+          Macでリモートサーバから更新したHTMLの差分ファイルをダウンロードする方法
         
       </div>
     </a>

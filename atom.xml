@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[web design and cording]]></title>
+  
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://yoursite.com/"/>
+  <updated>2015-08-23T05:59:31.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name><![CDATA[yoko u]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[test]]></title>
+    <link href="http://yoursite.com/2015/08/23/test/"/>
+    <id>http://yoursite.com/2015/08/23/test/</id>
+    <published>2015-08-23T05:54:16.000Z</published>
+    <updated>2015-08-23T05:59:31.000Z</updated>
+    <content type="html"><![CDATA[<p>テスト投稿</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>テスト投稿</p>
+]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Macでリモートサーバから更新したHTMLの差分ファイルをダウンロードする方法]]></title>
+    <link href="http://yoursite.com/2015/05/10/diffDL/"/>
+    <id>http://yoursite.com/2015/05/10/diffDL/</id>
+    <published>2015-05-10T07:58:54.000Z</published>
+    <updated>2015-08-23T11:00:16.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="実現したいこと">実現したいこと</h3><p>Macでリモートサーバから階層構造を保ったまま自動的に差分ファイルを抽出する。<br>web制作業務で、テストサーバ上のHTMLファイルを、納品用に差分ファイルだけ階層構造を保ったまま抽出する作業を自動化したい。</p>
+<p>Gitを使えばできる<br><a href="https://www.eyemovic.com/blog_it/4747.php" target="_blank" rel="external">Git初心者でも差分ファイルを一瞬で取り出すMac用SourceTreeスクリプト</a><br>が、現状は導入していないので、Gitなしで実現したい。</p>
+<h3 id="方法">方法</h3><p><em>MacのFinderから「サーバへ接続」し、フリーソフト「Cowsee」で差分ファイルを抽出</em></p>
+<h4 id="MacのFinderからリモートサーバへ接続">MacのFinderからリモートサーバへ接続</h4><ul>
+<li>Macのデスクトップ、Finderへ移動</li>
+<li>ショートカット「⌘＋K」で「サーバへ接続」ウインドウを開く（またはFinderのファイルメニュー「移」&gt;「サーバへ接続」を選択）<br><img src="/2015/05/10/diffDL/connect.jpg" alt="「サーバへ接続」のウインドウ"></li>
+<li>サーバアドレスに「ftp://IPアドレス（またはドメイン）」、または「ftps://IPアドレス（またはドメ&gt;イン）」（セキュア）を入力</li>
+<li>表示された画面で、サーバ用の名前とパスワードを入力<br><img src="2015/05/10/diffDL/server_namepw.jpg" alt="サーバ接続用の名前とパスワードを入力"></li>
+<li>FTP接続が成功すると、Finderのサイドバー「共有」にサーバ名が表示される</li>
+</ul>
+<h4 id="Cowseeでリモートサーバから差分ファイルを抽出してダウンロード"><a href="http://utweb.jp/air/cowsee/" target="_blank" rel="external">Cowsee</a>でリモートサーバから差分ファイルを抽出してダウンロード</h4><ul>
+<li>Cowseeを起動</li>
+<li>参照するディレクトリ（リモートサーバ上のディレクトリ）を選択</li>
+<li>変更日時を指定</li>
+<li>オプションを指定</li>
+<li>書き出し先のディレクトリを指定</li>
+<li>「書き出す」ボタンを押下</li>
+<li>成功すると、指定した書き出し先のディレクトリに差分ファイルがダウンロードされる</li>
+</ul>
+<hr>
+<p>参考：<br>FTP from Mac OS X: <a href="http://osxdaily.com/2011/02/07/ftp-from-mac/" target="_blank" rel="external">http://osxdaily.com/2011/02/07/ftp-from-mac/</a><br>サーバーへ接続: <a href="http://hamachan.info/mac/kyouyu/saba.html" target="_blank" rel="external">http://hamachan.info/mac/kyouyu/saba.html</a><br>Cowsee: <a href="http://utweb.jp/air/cowsee/" target="_blank" rel="external">http://utweb.jp/air/cowsee/</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="実現したいこと">実現したいこと</h3><p>Macでリモートサーバから階層構造を保ったまま自動的に差分ファイルを抽出する。<br>web制作業務で、テストサーバ上のHTMLファイルを、納品用に差分ファイルだけ階層構造を保ったまま抽出する作業を自動化したい。</]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[hexoセットアップ時のメモ]]></title>
+    <link href="http://yoursite.com/2015/05/09/hexoSetting/"/>
+    <id>http://yoursite.com/2015/05/09/hexoSetting/</id>
+    <published>2015-05-09T11:46:40.000Z</published>
+    <updated>2015-08-23T10:36:06.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="GitHubPageへのデプロイ時のエラー解決方法メモ">GitHubPageへのデプロイ時のエラー解決方法メモ</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy -g</span><br></pre></td></tr></table></figure>
+<p>GitHubPageへデプロイするとDeployerが見つからないというエラーが発生<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ERROR Deployer not found github</span><br></pre></td></tr></table></figure></p>
+<h4 id="解決方法">解決方法</h4><p>_config.yml（hexoの設定ファイル）の記述をvimで開いて修正</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vi _config.yml</span><br></pre></td></tr></table></figure>
+<p>deploy:のtype:に設定している’github’を’git’に変更</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: git@github.com:&lt;username&gt;/&lt;username&gt;.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<p>再度デプロイ</p>
+<hr>
+<h4 id="エラー解決の参考">エラー解決の参考</h4><p><a href="https://github.com/hexojs/hexo/issues/1040" target="_blank" rel="external">https://github.com/hexojs/hexo/issues/1040</a></p>
+<h4 id="hexo、GitHubPage設定の参考">hexo、GitHubPage設定の参考</h4><p><a href="http://liginc.co.jp/web/programming/server/104594" target="_blank" rel="external">http://liginc.co.jp/web/programming/server/104594</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="GitHubPageへのデプロイ時のエラー解決方法メモ">GitHubPageへのデプロイ時のエラー解決方法メモ</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[ブログ開始]]></title>
+    <link href="http://yoursite.com/2015/05/09/firstArticle/"/>
+    <id>http://yoursite.com/2015/05/09/firstArticle/</id>
+    <published>2015-05-09T07:08:04.000Z</published>
+    <updated>2015-08-23T12:27:35.000Z</updated>
+    <content type="html"><![CDATA[<p>ウェブ、アプリ制作についてのメモ。css、JavaScript、swiftなど</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>ウェブ、アプリ制作についてのメモ。css、JavaScript、swiftなど</p>
+]]>
+    </summary>
+    
+  </entry>
+  
+</feed>
