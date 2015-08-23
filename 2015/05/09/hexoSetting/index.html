@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>hexoセットアップ時のメモ | web design and cording</title>
+  <title>hexoセットアップ時のメモ | web app design and coding memo</title>
   <meta name="viewport" content="width=device-width">
   <meta name="description" content="GitHubPageへのデプロイ時のエラー解決方法メモ1$ hexo deploy -g
 GitHubPageへデプロイするとDeployerが見つからないというエラーが発生1ERROR Deployer not found github
@@ -13,7 +13,7 @@ deploy:のtype:に設定している">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexoセットアップ時のメモ">
 <meta property="og:url" content="http://yoursite.com/2015/05/09/hexoSetting/index.html">
-<meta property="og:site_name" content="web design and cording">
+<meta property="og:site_name" content="web app design and coding memo">
 <meta property="og:description" content="GitHubPageへのデプロイ時のエラー解決方法メモ1$ hexo deploy -g
 GitHubPageへデプロイするとDeployerが見つからないというエラーが発生1ERROR Deployer not found github
 解決方法_config.yml（hexoの設定ファイル）の記述をvimで開いて修正
@@ -28,7 +28,7 @@ GitHubPageへデプロイするとDeployerが見つからないというエラ�
 1$ vi _config.yml
 deploy:のtype:に設定している">
   
-    <link rel="alternative" href="/atom.xml" title="web design and cording" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="web app design and coding memo" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -36,6 +36,18 @@ deploy:のtype:に設定している">
   <link rel="stylesheet" href="/css/style.css" type="text/css">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-66652045-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
 </head>
 <body>
   <div id="container">
@@ -44,7 +56,7 @@ deploy:のtype:に設定している">
 </div>
 <header id="header">
 	<h1 class="blog-title">
-		<a href="/">web design and cording</a>
+		<a href="/">web app design and coding memo</a>
 	</h1>
 	<nav class="nav">
 		<ul>
@@ -67,6 +79,8 @@ deploy:のtype:に設定している">
 		</span>
 		<span class="meta-elements author">yoko u</span>
 		<div class="commentscount">
+			
+				<a href="http://yoursite.com/2015/05/09/hexoSetting/#disqus_thread" class="article-comment-link">Comments</a>
 			
 		</div>
 	</footer>
@@ -136,6 +150,12 @@ deploy:のtype:に設定している">
 
 
 
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+
     </div>
     <div class="mb-search">
   <form action="//google.com/search" method="get" accept-charset="utf-8">
@@ -145,7 +165,7 @@ deploy:のtype:に設定している">
 </div>
 <footer id="footer">
 	<h1 class="footer-blog-title">
-		<a href="/">web design and cording</a>
+		<a href="/">web app design and coding memo</a>
 	</h1>
 	<span class="copyright">
 		&copy; 2015 yoko u<br>
@@ -154,6 +174,20 @@ deploy:のtype:に設定している">
 	</span>
 </footer>
     
+<script>
+  var disqus_shortname = 'ykutm';
+  
+  var disqus_url = 'http://yoursite.com/2015/05/09/hexoSetting/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//go.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
