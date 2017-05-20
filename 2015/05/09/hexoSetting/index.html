@@ -5,35 +5,23 @@
   
   <title>hexoセットアップ時のメモ | web app design and coding memo</title>
   <meta name="viewport" content="width=device-width">
-  <meta name="description" content="GitHubPageへのデプロイ時のエラー解決方法メモ1$ hexo deploy -g
-GitHubPageへデプロイするとDeployerが見つからないというエラーが発生1ERROR Deployer not found github
-解決方法_config.yml（hexoの設定ファイル）の記述をvimで開いて修正
-1$ vi _config.yml
-deploy:のtype:に設定している">
+  <meta name="description" content="GitHubPageへのデプロイ時のエラー解決方法メモ1$ hexo deploy -g GitHubPageへデプロイするとDeployerが見つからないというエラーが発生1ERROR Deployer not found github 解決方法_config.yml（hexoの設定ファイル）の記述をvimで開いて修正 1$ vi _config.yml deploy:のtype:に設定している">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexoセットアップ時のメモ">
 <meta property="og:url" content="http://yoursite.com/2015/05/09/hexoSetting/index.html">
 <meta property="og:site_name" content="web app design and coding memo">
-<meta property="og:description" content="GitHubPageへのデプロイ時のエラー解決方法メモ1$ hexo deploy -g
-GitHubPageへデプロイするとDeployerが見つからないというエラーが発生1ERROR Deployer not found github
-解決方法_config.yml（hexoの設定ファイル）の記述をvimで開いて修正
-1$ vi _config.yml
-deploy:のtype:に設定している">
+<meta property="og:description" content="GitHubPageへのデプロイ時のエラー解決方法メモ1$ hexo deploy -g GitHubPageへデプロイするとDeployerが見つからないというエラーが発生1ERROR Deployer not found github 解決方法_config.yml（hexoの設定ファイル）の記述をvimで開いて修正 1$ vi _config.yml deploy:のtype:に設定している">
 <meta property="og:updated_time" content="2015-08-23T10:36:06.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexoセットアップ時のメモ">
-<meta name="twitter:description" content="GitHubPageへのデプロイ時のエラー解決方法メモ1$ hexo deploy -g
-GitHubPageへデプロイするとDeployerが見つからないというエラーが発生1ERROR Deployer not found github
-解決方法_config.yml（hexoの設定ファイル）の記述をvimで開いて修正
-1$ vi _config.yml
-deploy:のtype:に設定している">
+<meta name="twitter:description" content="GitHubPageへのデプロイ時のエラー解決方法メモ1$ hexo deploy -g GitHubPageへデプロイするとDeployerが見つからないというエラーが発生1ERROR Deployer not found github 解決方法_config.yml（hexoの設定ファイル）の記述をvimで開いて修正 1$ vi _config.yml deploy:のtype:に設定している">
   
     <link rel="alternative" href="/atom.xml" title="web app design and coding memo" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
   
-  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  <link rel="stylesheet" href="/css/style.css">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   
 <script type="text/javascript">
@@ -66,7 +54,7 @@ deploy:のtype:に設定している">
 		</ul>
 	</nav>
 	<div id="search-form-wrap">
-		<form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+		<form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
 	</div>
 </header>
     <div id="main">
@@ -96,12 +84,12 @@ deploy:のtype:に設定している">
 	</header>
 	<div class="entry-content">
 		
-    	<h3 id="GitHubPageへのデプロイ時のエラー解決方法メモ">GitHubPageへのデプロイ時のエラー解決方法メモ</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy -g</span><br></pre></td></tr></table></figure>
-<p>GitHubPageへデプロイするとDeployerが見つからないというエラーが発生<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ERROR Deployer not found github</span><br></pre></td></tr></table></figure></p>
+    	<h3 id="GitHubPageへのデプロイ時のエラー解決方法メモ">GitHubPageへのデプロイ時のエラー解決方法メモ</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy -g</div></pre></td></tr></table></figure>
+<p>GitHubPageへデプロイするとDeployerが見つからないというエラーが発生<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ERROR Deployer not found github</div></pre></td></tr></table></figure></p>
 <h4 id="解決方法">解決方法</h4><p>_config.yml（hexoの設定ファイル）の記述をvimで開いて修正</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vi _config.yml</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ vi _config.yml</div></pre></td></tr></table></figure>
 <p>deploy:のtype:に設定している’github’を’git’に変更</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: git@github.com:&lt;username&gt;/&lt;username&gt;.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">  <span class="built_in">type</span>: git</div><div class="line">  repo: git@github.com:&lt;username&gt;/&lt;username&gt;.github.io.git</div><div class="line">  branch: master</div></pre></td></tr></table></figure>
 <p>再度デプロイ</p>
 <hr>
 <h4 id="エラー解決の参考">エラー解決の参考</h4><p><a href="https://github.com/hexojs/hexo/issues/1040" target="_blank" rel="external">https://github.com/hexojs/hexo/issues/1040</a></p>
@@ -168,7 +156,7 @@ deploy:のtype:に設定している">
 		<a href="/">web app design and coding memo</a>
 	</h1>
 	<span class="copyright">
-		&copy; 2015 yoko u<br>
+		&copy; 2017 yoko u<br>
 		Modify from <a href="http://sanographix.github.io/tumblr/apollo/" target="_blank">Apollo</a> theme, designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a><br>
 		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
 	</span>
@@ -196,7 +184,7 @@ deploy:のtype:に設定している">
 <script src="/fancybox/jquery.fancybox.pack.js"></script>
 
 
-<script src="/js/script.js" type="text/javascript"></script>
+<script src="/js/script.js"></script>
   </div>
 </body>
 </html>
