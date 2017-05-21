@@ -3,23 +3,23 @@
 <head>
   <meta charset="utf-8">
   
-  <title>リモートサーバから更新したHTMLの差分ファイルをダウンロードする方法（Mac、FTP接続） | web app design and coding memo</title>
+  <title>リモートサーバから更新したHTMLの差分ファイルをダウンロードする方法（Mac、FTP接続） | web design memo</title>
   <meta name="viewport" content="width=device-width">
   <meta name="description" content="実現することMacでFTP接続したリモートサーバから階層構造を保ったまま差分ファイルを抽出する。テストサーバ上の更新したHTMLファイルのうち、差分ファイルだけ階層構造を保ったまま抽出する作業を自動化したい。 Gitを使えばできるが、現状は導入していないので、Gitなしで実現したい。Git初心者でも差分ファイルを一瞬で取り出すMac用SourceTreeスクリプト 方法MacのFinderから「サ">
 <meta property="og:type" content="article">
 <meta property="og:title" content="リモートサーバから更新したHTMLの差分ファイルをダウンロードする方法（Mac、FTP接続）">
-<meta property="og:url" content="http://yoursite.com/2015/05/10/diffDL/index.html">
-<meta property="og:site_name" content="web app design and coding memo">
+<meta property="og:url" content="http://ykutm.github.io/2015/05/10/diffDL/index.html">
+<meta property="og:site_name" content="web design memo">
 <meta property="og:description" content="実現することMacでFTP接続したリモートサーバから階層構造を保ったまま差分ファイルを抽出する。テストサーバ上の更新したHTMLファイルのうち、差分ファイルだけ階層構造を保ったまま抽出する作業を自動化したい。 Gitを使えばできるが、現状は導入していないので、Gitなしで実現したい。Git初心者でも差分ファイルを一瞬で取り出すMac用SourceTreeスクリプト 方法MacのFinderから「サ">
-<meta property="og:image" content="http://yoursite.com/2015/05/10/diffDL/connect.jpg">
-<meta property="og:image" content="http://yoursite.com/2015/05/10/diffDL/server_namepw.jpg">
+<meta property="og:image" content="http://ykutm.github.io/2015/05/10/diffDL/connect.jpg">
+<meta property="og:image" content="http://ykutm.github.io/2015/05/10/diffDL/server_namepw.jpg">
 <meta property="og:updated_time" content="2015-08-23T14:47:28.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="リモートサーバから更新したHTMLの差分ファイルをダウンロードする方法（Mac、FTP接続）">
 <meta name="twitter:description" content="実現することMacでFTP接続したリモートサーバから階層構造を保ったまま差分ファイルを抽出する。テストサーバ上の更新したHTMLファイルのうち、差分ファイルだけ階層構造を保ったまま抽出する作業を自動化したい。 Gitを使えばできるが、現状は導入していないので、Gitなしで実現したい。Git初心者でも差分ファイルを一瞬で取り出すMac用SourceTreeスクリプト 方法MacのFinderから「サ">
-<meta name="twitter:image" content="http://yoursite.com/2015/05/10/diffDL/connect.jpg">
+<meta name="twitter:image" content="http://ykutm.github.io/2015/05/10/diffDL/connect.jpg">
   
-    <link rel="alternative" href="/atom.xml" title="web app design and coding memo" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="web design memo" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -47,7 +47,7 @@
 </div>
 <header id="header">
 	<h1 class="blog-title">
-		<a href="/">web app design and coding memo</a>
+		<a href="/">web design memo</a>
 	</h1>
 	<nav class="nav">
 		<ul>
@@ -57,7 +57,7 @@
 		</ul>
 	</nav>
 	<div id="search-form-wrap">
-		<form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+		<form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://ykutm.github.io"></form>
 	</div>
 </header>
     <div id="main">
@@ -71,7 +71,7 @@
 		<span class="meta-elements author">yoko u</span>
 		<div class="commentscount">
 			
-				<a href="http://yoursite.com/2015/05/10/diffDL/#disqus_thread" class="article-comment-link">Comments</a>
+				<a href="http://ykutm.github.io/2015/05/10/diffDL/#disqus_thread" class="article-comment-link">Comments</a>
 			
 		</div>
 	</footer>
@@ -125,11 +125,11 @@
     
 <nav id="article-nav">
   
-    <a href="/2015/08/23/test/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2017/05/21/jsfeature1/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
-          test
+          JavaScriptの特徴
         
       </div>
     </a>
@@ -162,12 +162,12 @@
     <div class="mb-search">
   <form action="//google.com/search" method="get" accept-charset="utf-8">
     <input type="search" name="q" results="0" placeholder="Search">
-    <input type="hidden" name="q" value="site:yoursite.com">
+    <input type="hidden" name="q" value="site:ykutm.github.io">
   </form>
 </div>
 <footer id="footer">
 	<h1 class="footer-blog-title">
-		<a href="/">web app design and coding memo</a>
+		<a href="/">web design memo</a>
 	</h1>
 	<span class="copyright">
 		&copy; 2017 yoko u<br>
@@ -179,7 +179,7 @@
 <script>
   var disqus_shortname = 'ykutm';
   
-  var disqus_url = 'http://yoursite.com/2015/05/10/diffDL/';
+  var disqus_url = 'http://ykutm.github.io/2015/05/10/diffDL/';
   
   (function(){
     var dsq = document.createElement('script');

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[web app design and coding memo]]></title>
+  <title><![CDATA[web design memo]]></title>
   
   <link href="/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
-  <updated>2017-05-20T10:02:00.000Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://ykutm.github.io/"/>
+  <updated>2017-05-21T08:46:36.000Z</updated>
+  <id>http://ykutm.github.io/</id>
   
   <author>
     <name><![CDATA[yoko u]]></name>
@@ -15,41 +15,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[test 2]]></title>
-    <link href="http://yoursite.com/2017/05/20/test-2/"/>
-    <id>http://yoursite.com/2017/05/20/test-2/</id>
-    <published>2017-05-20T09:50:23.000Z</published>
-    <updated>2017-05-20T10:02:00.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="test2">test2</h1><p>テスト2</p>
+    <title><![CDATA[JavaScriptの特徴]]></title>
+    <link href="http://ykutm.github.io/2017/05/21/jsfeature1/"/>
+    <id>http://ykutm.github.io/2017/05/21/jsfeature1/</id>
+    <published>2017-05-21T08:14:38.000Z</published>
+    <updated>2017-05-21T08:46:36.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="オブジェクト指向">オブジェクト指向</h2><dl><dt>オブジェクト</dt><dd>名前のついた値（プロパティ）の集合を格納するコンテナ</dd></dl><dl><dt>メソッド</dt><dd>関数オブジェクトを持ったプロパティ</dd></dl><dl><dt>コンストラクタ関数</dt><dd>オブジェクトを生成するためのテンプレート。コンストラクタから返されたオブジェクトはインスタンスと呼ばれる。</dd></dl>
+
+<h3 id="ネイティブオブジェクトコンストラクタ">ネイティブオブジェクトコンストラクタ</h3><p>元々JavaScriptに用意されているコンストラクタ関数</p>
+<ul>
+<li>Nubmer()</li>
+<li>String()</li>
+<li>Boolean()</li>
+<li>Object()</li>
+<li>Array()</li>
+<li>Function()</li>
+<li>Date()</li>
+<li>RegExp()</li>
+<li>Error()<br>Person()のように自分でユーザー定義のコンストラクタ関数をつくることもできる</li>
+</ul>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h1 id="test2">test2</h1><p>テスト2</p>
-]]>
-    </summary>
-    
-      <category term="test" scheme="http://yoursite.com/tags/test/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[test]]></title>
-    <link href="http://yoursite.com/2015/08/23/test/"/>
-    <id>http://yoursite.com/2015/08/23/test/</id>
-    <published>2015-08-23T05:54:16.000Z</published>
-    <updated>2015-08-23T05:59:31.000Z</updated>
-    <content type="html"><![CDATA[<p>テスト投稿</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>テスト投稿</p>
-]]>
+    <![CDATA[<h2 id="オブジェクト指向">オブジェクト指向</h2><dl><dt>オブジェクト</dt><dd>名前のついた値（プロパティ）の集合を格納するコンテナ</dd></dl><dl><dt>メソッド</dt><dd>関数オブジェクトを持ったプロパティ</dd></dl><d]]>
     </summary>
     
   </entry>
   
   <entry>
     <title><![CDATA[リモートサーバから更新したHTMLの差分ファイルをダウンロードする方法（Mac、FTP接続）]]></title>
-    <link href="http://yoursite.com/2015/05/10/diffDL/"/>
-    <id>http://yoursite.com/2015/05/10/diffDL/</id>
+    <link href="http://ykutm.github.io/2015/05/10/diffDL/"/>
+    <id>http://ykutm.github.io/2015/05/10/diffDL/</id>
     <published>2015-05-10T07:58:54.000Z</published>
     <updated>2015-08-23T14:47:28.000Z</updated>
     <content type="html"><![CDATA[<h3 id="実現すること">実現すること</h3><p>MacでFTP接続したリモートサーバから階層構造を保ったまま差分ファイルを抽出する。<br>テストサーバ上の更新したHTMLファイルのうち、差分ファイルだけ階層構造を保ったまま抽出する作業を自動化したい。</p>
@@ -83,8 +78,8 @@
   
   <entry>
     <title><![CDATA[hexoセットアップ時のメモ]]></title>
-    <link href="http://yoursite.com/2015/05/09/hexoSetting/"/>
-    <id>http://yoursite.com/2015/05/09/hexoSetting/</id>
+    <link href="http://ykutm.github.io/2015/05/09/hexoSetting/"/>
+    <id>http://ykutm.github.io/2015/05/09/hexoSetting/</id>
     <published>2015-05-09T11:46:40.000Z</published>
     <updated>2015-08-23T10:36:06.000Z</updated>
     <content type="html"><![CDATA[<h3 id="GitHubPageへのデプロイ時のエラー解決方法メモ">GitHubPageへのデプロイ時のエラー解決方法メモ</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy -g</div></pre></td></tr></table></figure>
@@ -106,8 +101,8 @@
   
   <entry>
     <title><![CDATA[ブログ開始]]></title>
-    <link href="http://yoursite.com/2015/05/09/firstArticle/"/>
-    <id>http://yoursite.com/2015/05/09/firstArticle/</id>
+    <link href="http://ykutm.github.io/2015/05/09/firstArticle/"/>
+    <id>http://ykutm.github.io/2015/05/09/firstArticle/</id>
     <published>2015-05-09T07:08:04.000Z</published>
     <updated>2015-08-23T12:27:35.000Z</updated>
     <content type="html"><![CDATA[<p>ウェブ、アプリ制作についてのメモ。css、JavaScript、swiftなど</p>
